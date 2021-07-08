@@ -2,25 +2,56 @@ header {
   background:url(/src/images/header-fon.jpeg) no-repeat  center/cover
 }
 
-.nav {
+
+.header__wrap{
   display: flex;
-  align-items: center;
-  border-bottom: 1px solid $grey;
-  .link {
-    &:hover {
-      color: darken($color-primary, 15);
+  .logo{
+    display: flex;
+    align-items: center;
+    margin-bottom:45px;
+    .logo__img{
+      padding:22px 21px 22px 0px;
+    }
+    .logo__text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #505050;
+    padding:45px 0 45px 0px;
     }
   }
-  .logo-link {
-    padding: 10px 10px;
-    margin-right: 10px;
-    border-right: 1px solid $grey;
-    &:hover {
-      background: $pink;
+  .nav{
+    margin-left: 162px;
+    .nav__list{
+      display: flex;
+      padding:44px 0 45px 0;
+      margin:0;
+    }
+    .nav__item{
+      margin-right: 58px;
+    }
+    .nav__link{
+    font-family: Poppins;
+    color: #717784;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
     }
   }
-  .logo-img {
-    width: 25px;
-    height: 25px;
+}
+
+.discription{
+  margin-top: 196px;
+  .discription__title{
+    font-family: DM Serif Display;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 100%;
+    font-size: 56px;
+    width: 550px;
+    color: #696A86;
   }
 }
